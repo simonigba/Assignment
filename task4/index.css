@@ -1,0 +1,125 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+* {
+    padding: 0;
+    margin: 0;
+    text-overflow: none;
+}
+
+body {
+    font-size: 12px;
+}
+
+.container {
+    height: 90%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 95%);
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    border-radius: 10%;
+   
+    
+}
+
+.first-frame {
+    height: 27rem;
+    width: 18rem;
+    background-color: hsl(31, 77%, 52%);
+   
+}
+
+.second-frame {
+    height: 27rem;
+    width: 18rem;
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.third-frame {
+    height: 27rem;
+    width: 18rem;
+    background-color: hsl(179, 100%, 13%);
+}
+
+p {
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 10%;
+    /* margin-bottom: 5%; */
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    margin: 10%;
+    text-transform: uppercase;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+}
+
+img {
+    padding-top: 10%;
+    margin-top: 5%;
+    padding-left: 10%;
+}
+
+.first-btn {
+    margin-top: 30%;
+    margin-left: 10%;
+    padding-right: 13%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: none;
+    border-radius: 25px;
+    color: hsl(31, 77%, 52%);
+}
+
+.second-btn {
+    margin-top: 30%;
+    margin-left: 10%;
+    padding-right: 13%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: none;
+    border-radius: 25px;
+    color: hsl(184, 100%, 22%);
+}
+
+.third-btn {
+    margin-top: 30%;
+    margin-left: 10%;
+    padding-right: 13%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: none;
+    border-radius: 25px;
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: auto;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 5%;
+        text-overflow: none;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        font-size: 10px;
+        font-weight: 200;
+    }
+}
+
